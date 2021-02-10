@@ -74,3 +74,11 @@ function myFunction() {
 
 console.log("global scope " + carName);
 */
+
+// global scope example
+var car1 = "BMW 1 Series";
+function myFunc() {
+    return console.log(car1);
+}
+console.log(myFunc());
+
