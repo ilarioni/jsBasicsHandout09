@@ -86,3 +86,15 @@ console.log(myFunc());
 
 "use strict";
 // "use strict";  --- defines that javascript code should be executed in strict mode
+
+// keywords reserved for future JavaScript versions
+
+implements
+interface
+let
+package
+private
+protected
+public
+static
+yield
