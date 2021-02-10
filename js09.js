@@ -61,3 +61,16 @@ function myFunction() {
 // 5 -- TypeError A type error has occurred
 // 6 -- URIError  An error in encodeURI() has occurred
 
+// Javascript Scope
+// Two types of scope:
+// 1 -- local scope
+// 2 -- global scope 
+
+/*
+function myFunction() {
+    var carName = "Volvo";
+}
+// carName is local variable, if we will use it in global scope it throws following message: carName is undefined
+
+console.log("global scope " + carName);
+*/
