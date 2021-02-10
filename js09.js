@@ -82,3 +82,7 @@ function myFunc() {
 }
 console.log(myFunc());
 
+// all variables should be declared at the beginning of every scope, because javascript declarations are Hoisted
+
+"use strict";
+// "use strict";  --- defines that javascript code should be executed in strict mode
